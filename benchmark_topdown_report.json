@@ -1,0 +1,811 @@
+{
+  "config": {
+    "violence_sample": 24,
+    "nonviolence_sample": 24,
+    "max_frames": 240,
+    "num_segments": null,
+    "profile": "balanced",
+    "decision_mode": "hybrid",
+    "tsm_only_on_threshold": 0.56,
+    "tsm_only_off_threshold": 0.4,
+    "tsm_only_use_raw_boost": false,
+    "det_conf": 0.18,
+    "person_classes": "0,18,72",
+    "detector_mode": "predict",
+    "alert_frames_thresh": 8,
+    "tsm_weights": "C:\\Users\\Lenovo\\Desktop\\NewVioDe\\weights\\best_tsm_topdown.pth",
+    "yolo_weights": null
+  },
+  "violence_summary": {
+    "total_ok": 0,
+    "total_failed": 24,
+    "positive_videos": 0,
+    "positive_ratio": 0.0,
+    "mean_single_lock_ratio": 0.0,
+    "mean_alert_ratio": 0.0,
+    "failed": [
+      {
+        "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f1.mp4",
+        "label": "violence",
+        "returncode": 2,
+        "stdout_tail": "",
+        "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f1.mp4",
+        "stats": null
+      },
+      {
+        "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f110.mp4",
+        "label": "violence",
+        "returncode": 2,
+        "stdout_tail": "",
+        "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f110.mp4",
+        "stats": null
+      },
+      {
+        "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f122.mp4",
+        "label": "violence",
+        "returncode": 2,
+        "stdout_tail": "",
+        "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f122.mp4",
+        "stats": null
+      },
+      {
+        "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f134.mp4",
+        "label": "violence",
+        "returncode": 2,
+        "stdout_tail": "",
+        "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f134.mp4",
+        "stats": null
+      },
+      {
+        "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f146.mp4",
+        "label": "violence",
+        "returncode": 2,
+        "stdout_tail": "",
+        "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f146.mp4",
+        "stats": null
+      },
+      {
+        "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f158.mp4",
+        "label": "violence",
+        "returncode": 2,
+        "stdout_tail": "",
+        "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f158.mp4",
+        "stats": null
+      },
+      {
+        "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f17.mp4",
+        "label": "violence",
+        "returncode": 2,
+        "stdout_tail": "",
+        "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f17.mp4",
+        "stats": null
+      },
+      {
+        "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f181.mp4",
+        "label": "violence",
+        "returncode": 2,
+        "stdout_tail": "",
+        "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f181.mp4",
+        "stats": null
+      },
+      {
+        "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f193.mp4",
+        "label": "violence",
+        "returncode": 2,
+        "stdout_tail": "",
+        "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f193.mp4",
+        "stats": null
+      },
+      {
+        "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f204.mp4",
+        "label": "violence",
+        "returncode": 2,
+        "stdout_tail": "",
+        "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f204.mp4",
+        "stats": null
+      },
+      {
+        "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f216.mp4",
+        "label": "violence",
+        "returncode": 2,
+        "stdout_tail": "",
+        "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f216.mp4",
+        "stats": null
+      },
+      {
+        "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f228.mp4",
+        "label": "violence",
+        "returncode": 2,
+        "stdout_tail": "",
+        "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f228.mp4",
+        "stats": null
+      },
+      {
+        "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f24.mp4",
+        "label": "violence",
+        "returncode": 2,
+        "stdout_tail": "",
+        "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f24.mp4",
+        "stats": null
+      },
+      {
+        "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f251.mp4",
+        "label": "violence",
+        "returncode": 2,
+        "stdout_tail": "",
+        "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f251.mp4",
+        "stats": null
+      },
+      {
+        "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f263.mp4",
+        "label": "violence",
+        "returncode": 2,
+        "stdout_tail": "",
+        "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f263.mp4",
+        "stats": null
+      },
+      {
+        "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f275.mp4",
+        "label": "violence",
+        "returncode": 2,
+        "stdout_tail": "",
+        "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f275.mp4",
+        "stats": null
+      },
+      {
+        "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f287.mp4",
+        "label": "violence",
+        "returncode": 2,
+        "stdout_tail": "",
+        "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f287.mp4",
+        "stats": null
+      },
+      {
+        "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f299.mp4",
+        "label": "violence",
+        "returncode": 2,
+        "stdout_tail": "",
+        "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f299.mp4",
+        "stats": null
+      },
+      {
+        "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f4.mp4",
+        "label": "violence",
+        "returncode": 2,
+        "stdout_tail": "",
+        "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f4.mp4",
+        "stats": null
+      },
+      {
+        "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f51.mp4",
+        "label": "violence",
+        "returncode": 2,
+        "stdout_tail": "",
+        "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f51.mp4",
+        "stats": null
+      },
+      {
+        "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f63.mp4",
+        "label": "violence",
+        "returncode": 2,
+        "stdout_tail": "",
+        "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f63.mp4",
+        "stats": null
+      },
+      {
+        "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f75.mp4",
+        "label": "violence",
+        "returncode": 2,
+        "stdout_tail": "",
+        "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f75.mp4",
+        "stats": null
+      },
+      {
+        "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f87.mp4",
+        "label": "violence",
+        "returncode": 2,
+        "stdout_tail": "",
+        "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f87.mp4",
+        "stats": null
+      },
+      {
+        "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f99.mp4",
+        "label": "violence",
+        "returncode": 2,
+        "stdout_tail": "",
+        "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f99.mp4",
+        "stats": null
+      }
+    ]
+  },
+  "nonviolence_summary": {
+    "total_ok": 0,
+    "total_failed": 24,
+    "positive_videos": 0,
+    "positive_ratio": 0.0,
+    "mean_single_lock_ratio": 0.0,
+    "mean_alert_ratio": 0.0,
+    "failed": [
+      {
+        "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf1.mp4",
+        "label": "nonviolence",
+        "returncode": 2,
+        "stdout_tail": "",
+        "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf1.mp4",
+        "stats": null
+      },
+      {
+        "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf115.mp4",
+        "label": "nonviolence",
+        "returncode": 2,
+        "stdout_tail": "",
+        "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf115.mp4",
+        "stats": null
+      },
+      {
+        "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf131.mp4",
+        "label": "nonviolence",
+        "returncode": 2,
+        "stdout_tail": "",
+        "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf131.mp4",
+        "stats": null
+      },
+      {
+        "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf147.mp4",
+        "label": "nonviolence",
+        "returncode": 2,
+        "stdout_tail": "",
+        "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf147.mp4",
+        "stats": null
+      },
+      {
+        "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf162.mp4",
+        "label": "nonviolence",
+        "returncode": 2,
+        "stdout_tail": "",
+        "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf162.mp4",
+        "stats": null
+      },
+      {
+        "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf179.mp4",
+        "label": "nonviolence",
+        "returncode": 2,
+        "stdout_tail": "",
+        "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf179.mp4",
+        "stats": null
+      },
+      {
+        "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf198.mp4",
+        "label": "nonviolence",
+        "returncode": 2,
+        "stdout_tail": "",
+        "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf198.mp4",
+        "stats": null
+      },
+      {
+        "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf213.mp4",
+        "label": "nonviolence",
+        "returncode": 2,
+        "stdout_tail": "",
+        "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf213.mp4",
+        "stats": null
+      },
+      {
+        "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf23.mp4",
+        "label": "nonviolence",
+        "returncode": 2,
+        "stdout_tail": "",
+        "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf23.mp4",
+        "stats": null
+      },
+      {
+        "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf245.mp4",
+        "label": "nonviolence",
+        "returncode": 2,
+        "stdout_tail": "",
+        "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf245.mp4",
+        "stats": null
+      },
+      {
+        "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf260.mp4",
+        "label": "nonviolence",
+        "returncode": 2,
+        "stdout_tail": "",
+        "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf260.mp4",
+        "stats": null
+      },
+      {
+        "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf277.mp4",
+        "label": "nonviolence",
+        "returncode": 2,
+        "stdout_tail": "",
+        "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf277.mp4",
+        "stats": null
+      },
+      {
+        "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf292.mp4",
+        "label": "nonviolence",
+        "returncode": 2,
+        "stdout_tail": "",
+        "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf292.mp4",
+        "stats": null
+      },
+      {
+        "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf308.mp4",
+        "label": "nonviolence",
+        "returncode": 2,
+        "stdout_tail": "",
+        "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf308.mp4",
+        "stats": null
+      },
+      {
+        "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf323.mp4",
+        "label": "nonviolence",
+        "returncode": 2,
+        "stdout_tail": "",
+        "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf323.mp4",
+        "stats": null
+      },
+      {
+        "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf339.mp4",
+        "label": "nonviolence",
+        "returncode": 2,
+        "stdout_tail": "",
+        "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf339.mp4",
+        "stats": null
+      },
+      {
+        "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf355.mp4",
+        "label": "nonviolence",
+        "returncode": 2,
+        "stdout_tail": "",
+        "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf355.mp4",
+        "stats": null
+      },
+      {
+        "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf370.mp4",
+        "label": "nonviolence",
+        "returncode": 2,
+        "stdout_tail": "",
+        "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf370.mp4",
+        "stats": null
+      },
+      {
+        "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf386.mp4",
+        "label": "nonviolence",
+        "returncode": 2,
+        "stdout_tail": "",
+        "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf386.mp4",
+        "stats": null
+      },
+      {
+        "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf401.mp4",
+        "label": "nonviolence",
+        "returncode": 2,
+        "stdout_tail": "",
+        "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf401.mp4",
+        "stats": null
+      },
+      {
+        "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf50.mp4",
+        "label": "nonviolence",
+        "returncode": 2,
+        "stdout_tail": "",
+        "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf50.mp4",
+        "stats": null
+      },
+      {
+        "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf66.mp4",
+        "label": "nonviolence",
+        "returncode": 2,
+        "stdout_tail": "",
+        "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf66.mp4",
+        "stats": null
+      },
+      {
+        "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf83.mp4",
+        "label": "nonviolence",
+        "returncode": 2,
+        "stdout_tail": "",
+        "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf83.mp4",
+        "stats": null
+      },
+      {
+        "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf99.mp4",
+        "label": "nonviolence",
+        "returncode": 2,
+        "stdout_tail": "",
+        "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf99.mp4",
+        "stats": null
+      }
+    ]
+  },
+  "violence_results": [
+    {
+      "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f1.mp4",
+      "label": "violence",
+      "returncode": 2,
+      "stdout_tail": "",
+      "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f1.mp4",
+      "stats": null
+    },
+    {
+      "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f110.mp4",
+      "label": "violence",
+      "returncode": 2,
+      "stdout_tail": "",
+      "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f110.mp4",
+      "stats": null
+    },
+    {
+      "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f122.mp4",
+      "label": "violence",
+      "returncode": 2,
+      "stdout_tail": "",
+      "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f122.mp4",
+      "stats": null
+    },
+    {
+      "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f134.mp4",
+      "label": "violence",
+      "returncode": 2,
+      "stdout_tail": "",
+      "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f134.mp4",
+      "stats": null
+    },
+    {
+      "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f146.mp4",
+      "label": "violence",
+      "returncode": 2,
+      "stdout_tail": "",
+      "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f146.mp4",
+      "stats": null
+    },
+    {
+      "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f158.mp4",
+      "label": "violence",
+      "returncode": 2,
+      "stdout_tail": "",
+      "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f158.mp4",
+      "stats": null
+    },
+    {
+      "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f17.mp4",
+      "label": "violence",
+      "returncode": 2,
+      "stdout_tail": "",
+      "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f17.mp4",
+      "stats": null
+    },
+    {
+      "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f181.mp4",
+      "label": "violence",
+      "returncode": 2,
+      "stdout_tail": "",
+      "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f181.mp4",
+      "stats": null
+    },
+    {
+      "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f193.mp4",
+      "label": "violence",
+      "returncode": 2,
+      "stdout_tail": "",
+      "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f193.mp4",
+      "stats": null
+    },
+    {
+      "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f204.mp4",
+      "label": "violence",
+      "returncode": 2,
+      "stdout_tail": "",
+      "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f204.mp4",
+      "stats": null
+    },
+    {
+      "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f216.mp4",
+      "label": "violence",
+      "returncode": 2,
+      "stdout_tail": "",
+      "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f216.mp4",
+      "stats": null
+    },
+    {
+      "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f228.mp4",
+      "label": "violence",
+      "returncode": 2,
+      "stdout_tail": "",
+      "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f228.mp4",
+      "stats": null
+    },
+    {
+      "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f24.mp4",
+      "label": "violence",
+      "returncode": 2,
+      "stdout_tail": "",
+      "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f24.mp4",
+      "stats": null
+    },
+    {
+      "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f251.mp4",
+      "label": "violence",
+      "returncode": 2,
+      "stdout_tail": "",
+      "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f251.mp4",
+      "stats": null
+    },
+    {
+      "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f263.mp4",
+      "label": "violence",
+      "returncode": 2,
+      "stdout_tail": "",
+      "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f263.mp4",
+      "stats": null
+    },
+    {
+      "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f275.mp4",
+      "label": "violence",
+      "returncode": 2,
+      "stdout_tail": "",
+      "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f275.mp4",
+      "stats": null
+    },
+    {
+      "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f287.mp4",
+      "label": "violence",
+      "returncode": 2,
+      "stdout_tail": "",
+      "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f287.mp4",
+      "stats": null
+    },
+    {
+      "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f299.mp4",
+      "label": "violence",
+      "returncode": 2,
+      "stdout_tail": "",
+      "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f299.mp4",
+      "stats": null
+    },
+    {
+      "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f4.mp4",
+      "label": "violence",
+      "returncode": 2,
+      "stdout_tail": "",
+      "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f4.mp4",
+      "stats": null
+    },
+    {
+      "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f51.mp4",
+      "label": "violence",
+      "returncode": 2,
+      "stdout_tail": "",
+      "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f51.mp4",
+      "stats": null
+    },
+    {
+      "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f63.mp4",
+      "label": "violence",
+      "returncode": 2,
+      "stdout_tail": "",
+      "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f63.mp4",
+      "stats": null
+    },
+    {
+      "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f75.mp4",
+      "label": "violence",
+      "returncode": 2,
+      "stdout_tail": "",
+      "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f75.mp4",
+      "stats": null
+    },
+    {
+      "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f87.mp4",
+      "label": "violence",
+      "returncode": 2,
+      "stdout_tail": "",
+      "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f87.mp4",
+      "stats": null
+    },
+    {
+      "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f99.mp4",
+      "label": "violence",
+      "returncode": 2,
+      "stdout_tail": "",
+      "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence\\f99.mp4",
+      "stats": null
+    }
+  ],
+  "nonviolence_results": [
+    {
+      "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf1.mp4",
+      "label": "nonviolence",
+      "returncode": 2,
+      "stdout_tail": "",
+      "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf1.mp4",
+      "stats": null
+    },
+    {
+      "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf115.mp4",
+      "label": "nonviolence",
+      "returncode": 2,
+      "stdout_tail": "",
+      "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf115.mp4",
+      "stats": null
+    },
+    {
+      "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf131.mp4",
+      "label": "nonviolence",
+      "returncode": 2,
+      "stdout_tail": "",
+      "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf131.mp4",
+      "stats": null
+    },
+    {
+      "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf147.mp4",
+      "label": "nonviolence",
+      "returncode": 2,
+      "stdout_tail": "",
+      "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf147.mp4",
+      "stats": null
+    },
+    {
+      "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf162.mp4",
+      "label": "nonviolence",
+      "returncode": 2,
+      "stdout_tail": "",
+      "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf162.mp4",
+      "stats": null
+    },
+    {
+      "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf179.mp4",
+      "label": "nonviolence",
+      "returncode": 2,
+      "stdout_tail": "",
+      "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf179.mp4",
+      "stats": null
+    },
+    {
+      "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf198.mp4",
+      "label": "nonviolence",
+      "returncode": 2,
+      "stdout_tail": "",
+      "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf198.mp4",
+      "stats": null
+    },
+    {
+      "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf213.mp4",
+      "label": "nonviolence",
+      "returncode": 2,
+      "stdout_tail": "",
+      "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf213.mp4",
+      "stats": null
+    },
+    {
+      "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf23.mp4",
+      "label": "nonviolence",
+      "returncode": 2,
+      "stdout_tail": "",
+      "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf23.mp4",
+      "stats": null
+    },
+    {
+      "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf245.mp4",
+      "label": "nonviolence",
+      "returncode": 2,
+      "stdout_tail": "",
+      "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf245.mp4",
+      "stats": null
+    },
+    {
+      "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf260.mp4",
+      "label": "nonviolence",
+      "returncode": 2,
+      "stdout_tail": "",
+      "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf260.mp4",
+      "stats": null
+    },
+    {
+      "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf277.mp4",
+      "label": "nonviolence",
+      "returncode": 2,
+      "stdout_tail": "",
+      "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf277.mp4",
+      "stats": null
+    },
+    {
+      "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf292.mp4",
+      "label": "nonviolence",
+      "returncode": 2,
+      "stdout_tail": "",
+      "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf292.mp4",
+      "stats": null
+    },
+    {
+      "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf308.mp4",
+      "label": "nonviolence",
+      "returncode": 2,
+      "stdout_tail": "",
+      "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf308.mp4",
+      "stats": null
+    },
+    {
+      "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf323.mp4",
+      "label": "nonviolence",
+      "returncode": 2,
+      "stdout_tail": "",
+      "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf323.mp4",
+      "stats": null
+    },
+    {
+      "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf339.mp4",
+      "label": "nonviolence",
+      "returncode": 2,
+      "stdout_tail": "",
+      "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf339.mp4",
+      "stats": null
+    },
+    {
+      "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf355.mp4",
+      "label": "nonviolence",
+      "returncode": 2,
+      "stdout_tail": "",
+      "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf355.mp4",
+      "stats": null
+    },
+    {
+      "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf370.mp4",
+      "label": "nonviolence",
+      "returncode": 2,
+      "stdout_tail": "",
+      "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf370.mp4",
+      "stats": null
+    },
+    {
+      "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf386.mp4",
+      "label": "nonviolence",
+      "returncode": 2,
+      "stdout_tail": "",
+      "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf386.mp4",
+      "stats": null
+    },
+    {
+      "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf401.mp4",
+      "label": "nonviolence",
+      "returncode": 2,
+      "stdout_tail": "",
+      "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf401.mp4",
+      "stats": null
+    },
+    {
+      "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf50.mp4",
+      "label": "nonviolence",
+      "returncode": 2,
+      "stdout_tail": "",
+      "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf50.mp4",
+      "stats": null
+    },
+    {
+      "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf66.mp4",
+      "label": "nonviolence",
+      "returncode": 2,
+      "stdout_tail": "",
+      "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf66.mp4",
+      "stats": null
+    },
+    {
+      "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf83.mp4",
+      "label": "nonviolence",
+      "returncode": 2,
+      "stdout_tail": "",
+      "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf83.mp4",
+      "stats": null
+    },
+    {
+      "video": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf99.mp4",
+      "label": "nonviolence",
+      "returncode": 2,
+      "stdout_tail": "",
+      "stderr_tail": "                              [--tsm-only-on-threshold TSM_ONLY_ON_THRESHOLD]\n                              [--tsm-only-off-threshold TSM_ONLY_OFF_THRESHOLD]\n                              [--tsm-only-use-raw-boost]\n                              [--no-tsm-only-use-raw-boost]\n                              [--max-frames MAX_FRAMES] [--no-save]\n                              [--stats-json STATS_JSON] [--show]\n                              [--disable-fullframe-rescue]\nbuoc6_main_pipeline.py: error: unrecognized arguments: --source C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence\\nf99.mp4",
+      "stats": null
+    }
+  ]
+}

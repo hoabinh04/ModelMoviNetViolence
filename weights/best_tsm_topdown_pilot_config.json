@@ -1,0 +1,23 @@
+{
+  "violence_dir": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\Violence",
+  "nonviolence_dir": "C:\\Users\\Lenovo\\Desktop\\codeNCKH\\codeDot2\\Data_Violence_Detection\\NonViolence",
+  "init_weights": "C:\\Users\\Lenovo\\Desktop\\NewVioDe\\weights\\best_tsm_model.pth",
+  "save_dir": "C:\\Users\\Lenovo\\Desktop\\NewVioDe\\weights",
+  "output_name": "best_tsm_topdown_pilot.pth",
+  "num_segments": 12,
+  "image_size": 224,
+  "batch_size": 4,
+  "num_epochs": 3,
+  "learning_rate": 5e-05,
+  "weight_decay": 0.0001,
+  "num_workers": 0,
+  "val_ratio": 0.2,
+  "max_videos_per_class": 80,
+  "max_frames_per_video": 180,
+  "freeze_backbone_epochs": 1,
+  "grad_clip_norm": 1.0,
+  "label_smoothing": 0.02,
+  "early_stop_patience": 4,
+  "seed": 42,
+  "amp": true
+}
